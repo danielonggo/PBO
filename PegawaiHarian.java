@@ -5,12 +5,11 @@ public class PegawaiHarian extends Pegawai {
     private double upahPerJam;
 
     public PegawaiHarian(String nama, String idPegawai, String posisi, int jamKerja, double upahPerJam) {
-        super(nama, idPegawai, posisi); // Sesuai Rubrik Poin 4
+        super(nama, idPegawai, posisi);
         this.jamKerja = jamKerja;
         this.upahPerJam = upahPerJam;
     }
 
-    // Getter Setter tambahan
     public int getJamKerja() {
         return jamKerja;
     }
