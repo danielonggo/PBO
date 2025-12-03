@@ -1,7 +1,6 @@
 package sistempegawai;
 
 public abstract class Pegawai {
-    // Menggunakan private agar enkapsulasi sempurna (Sesuai Rubrik Poin 1)
     private String nama;
     private String idPegawai;
     private String posisi;
@@ -12,7 +11,6 @@ public abstract class Pegawai {
         this.posisi = posisi;
     }
 
-    // Menambahkan Getter dan Setter (Sesuai Rubrik Poin 1)
     public String getNama() {
         return nama;
     }
@@ -42,7 +40,6 @@ public abstract class Pegawai {
 
     public void tampilkanInfo() {
         System.out.println("------------------------------");
-        // Karena private, kita panggil pakai getter 
         System.out.println("Nama        : " + getNama());
         System.out.println("ID Pegawai  : " + getIdPegawai());
         System.out.println("Posisi      : " + getPosisi());
