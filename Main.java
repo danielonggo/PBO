@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        // Poin 5 Rubrik: Menggunakan Pegawai sebagai referensi (ArrayList<Pegawai>)
         ArrayList<Pegawai> daftarPegawai = new ArrayList<>();
 
         daftarPegawai.add(new PegawaiTetap("Budi Santoso", "P001", "Manager", 7000000));
@@ -16,7 +15,6 @@ public class Main {
         System.out.println("   SISTEM MANAJEMEN PEGAWAI TOKO KECIL    ");
         System.out.println("===========================================");
 
-        // Poin 6 Rubrik: Output Rapi & Poin 5: Memanggil hitungGaji via Polymorphism
         for (Pegawai p : daftarPegawai) {
             p.tampilkanInfo();
         }
