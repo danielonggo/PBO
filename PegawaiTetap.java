@@ -4,11 +4,10 @@ public class PegawaiTetap extends Pegawai {
     private double gajiBulanan;
 
     public PegawaiTetap(String nama, String idPegawai, String posisi, double gajiBulanan) {
-        super(nama, idPegawai, posisi); // Sesuai Rubrik Poin 4 (Constructor Anak)
+        super(nama, idPegawai, posisi); 
         this.gajiBulanan = gajiBulanan;
     }
 
-    // Getter Setter untuk atribut sendiri
     public double getGajiBulanan() {
         return gajiBulanan;
     }
